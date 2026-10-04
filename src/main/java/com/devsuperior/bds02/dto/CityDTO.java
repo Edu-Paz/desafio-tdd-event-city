@@ -1,10 +1,12 @@
 package com.devsuperior.bds02.dto;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 import com.devsuperior.bds02.entities.City;
 
 public class CityDTO implements Serializable {
+	@Serial
 	private static final long serialVersionUID = 1L;
 	
 	private Long id;
